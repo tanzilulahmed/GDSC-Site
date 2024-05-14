@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* /* @font-face {
+    font-family: neue;
+    src: url("./assets/NeueMontreal-Regular.ttf");
+} */
+@font-face {
+    font-family: grotesk;
+    src: url("./assets/FoundersGrotesk-Semibold.ttf");
+} 
+
+*{
+    margin: 0;
+    padding: 0;
+    
+    font-family: neue;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    
+}
